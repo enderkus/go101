@@ -6,7 +6,7 @@ func main() {
 	/*
 
 		Boş tanımlayıcılar fonksiyona parametreleri boş göndermek için kullanılır.
-		Boş değişkenleri yazdırmak için çağıramazsın.
+		Boş değişkenleri yazdırmak için çağıramazsın...
 
 	*/
 }
