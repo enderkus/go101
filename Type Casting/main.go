@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"reflect"
-	"strconv"
+	"reflect" // reflect.TypeOf ile değişken türü alınıyor.
+	"strconv" // strconv.Atoi ya da strconv.Itoa ile stringten integer değerine ya da integer dan string türüne dönüşüm sağlanıyor.
 )
 
 func main() {
