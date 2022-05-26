@@ -14,10 +14,10 @@ func main() {
 	fmt.Print("Lütfen en değeri giriniz (Cm cinsinden) : ")
 	scanner.Scan()
 	en, _ := strconv.ParseFloat(scanner.Text(), 64)
-	fmt.Print("Lütfen boy değeri giriniz (Cm cinsnden ) : ")
+	fmt.Print("Lütfen boy değeri giriniz (Cm cinsinden ) : ")
 	scanner.Scan()
 	boy, _ := strconv.ParseFloat(scanner.Text(), 64)
-	fmt.Print("Lütfen yükseklik değeri giriniz (Cm cinsnden ) : ")
+	fmt.Print("Lütfen yükseklik değeri giriniz (Cm cinsinden ) : ")
 	scanner.Scan()
 	yukseklik, _ := strconv.ParseFloat(scanner.Text(), 64)
 	DesiHesapla := (en * boy * yukseklik) / 3000
