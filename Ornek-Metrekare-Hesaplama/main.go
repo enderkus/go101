@@ -17,6 +17,6 @@ func main() {
 	scanner.Scan()
 	boy, _ := strconv.ParseFloat(scanner.Text(), 64)
 
-	fmt.Printf("Girdiğiniz en : %f. Girdiğiniz boy : %f. Toplam metrekare %f", en, boy, en*boy)
+	fmt.Printf("Girdiğiniz en : %.2f. Girdiğiniz boy : %.2f. Toplam metrekare %.2f", en, boy, en*boy)
 
 }
